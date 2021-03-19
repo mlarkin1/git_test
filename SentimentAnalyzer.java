@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// maybe regex can also be used with this file
 class SentimentAnalyzer {
     // Tip: labeled continue can be used when iterating featureSet + convert review to lower-case
 	public static int[] detectProsAndCons(String review, String[][] featureSet, String[] posOpinionWords,
